@@ -13,7 +13,7 @@ bot.on("message", message => {
             message.channel.sendMessage("Yes.");
         }
         if (yesno === 0) {
-            message.channel.sendMessage("No.").then(message => message.edit("Yes."));
+            message.channel.sendMessage("No.");
         }
     }
 
